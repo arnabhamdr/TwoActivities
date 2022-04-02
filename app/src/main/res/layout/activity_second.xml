@@ -47,7 +47,7 @@
         android:text="@string/cheese"
 
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button_Chocolate" />
+        app:layout_constraintTop_toBottomOf="@+id/button_Butter" />
 
     <Button
         android:id="@+id/button_rice"
@@ -68,11 +68,10 @@
         style="@android:style/Widget.Material.Button"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:onClick="selectItem"
-        android:text="@string/wheat_flour"
+        android:text="@string/wheat"
 
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button_cheese" />
@@ -134,15 +133,14 @@
         app:layout_constraintTop_toBottomOf="@+id/button_sugar" />
 
     <Button
-        android:id="@+id/button_Chocolate"
+        android:id="@+id/button_Butter"
         style="@android:style/Widget.Material.Button"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:onClick="selectItem"
-        android:text="@string/chocolate"
+        android:text="@string/butter"
 
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />

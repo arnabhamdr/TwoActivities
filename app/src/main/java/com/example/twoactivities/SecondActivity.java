@@ -21,7 +21,7 @@ public class SecondActivity extends AppCompatActivity {
         Intent return_items_intent = new Intent();
 
         switch (view.getId()){
-            case R.id.button_Chocolate:
+            case R.id.button_Butter:
                 return_items_intent.putExtra(EXTRA_ITEMS, "Chocolate"); setResult(RESULT_OK, return_items_intent); finish();
                 break;
             case R.id.button_oil:
