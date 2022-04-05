@@ -22,7 +22,7 @@ public class SecondActivity extends AppCompatActivity {
 
         switch (view.getId()){
             case R.id.button_Butter:
-                return_items_intent.putExtra(EXTRA_ITEMS, "Chocolate"); setResult(RESULT_OK, return_items_intent); finish();
+                return_items_intent.putExtra(EXTRA_ITEMS, "Butter"); setResult(RESULT_OK, return_items_intent); finish();
                 break;
             case R.id.button_oil:
                 return_items_intent.putExtra(EXTRA_ITEMS, "Oil"); setResult(RESULT_OK, return_items_intent); finish();
@@ -40,7 +40,7 @@ public class SecondActivity extends AppCompatActivity {
                 return_items_intent.putExtra(EXTRA_ITEMS, "Rice"); setResult(RESULT_OK, return_items_intent); finish();
                 break;
             case R.id.button_wheat:
-                return_items_intent.putExtra(EXTRA_ITEMS, "Wheat Flour"); setResult(RESULT_OK, return_items_intent); finish();
+                return_items_intent.putExtra(EXTRA_ITEMS, "Wheat"); setResult(RESULT_OK, return_items_intent); finish();
                 break;
             case R.id.button_bread:
                 return_items_intent.putExtra(EXTRA_ITEMS, "Bread"); setResult(RESULT_OK, return_items_intent); finish();
